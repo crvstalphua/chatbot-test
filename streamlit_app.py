@@ -36,7 +36,7 @@ with input_container:
     user_input = get_text()
 
 def generate_response(prompt):
-    chatbot = hugchat.Chatbot()
+    chatbot = hugchat.ChatBot(cookie_path='cookies.json')
     response = chatbot.chat(prompt)
     return response
 
