@@ -16,7 +16,7 @@ with st.sidebar:
     ''')
 
     add_vertical_space(5)
-    st.write('Made by crvstalphua, referenced: [Streamlit] (<https://blog.streamlit.io/how-to-build-an-llm-powered-chatbot-with-streamlit/>)')
+    st.write('Made by crvstalphua, referenced: [Streamlit](<https://blog.streamlit.io/how-to-build-an-llm-powered-chatbot-with-streamlit/>)')
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = ["Hi! I'm WorkChats, here to help you out!"]
