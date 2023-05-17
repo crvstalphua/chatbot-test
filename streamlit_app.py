@@ -4,11 +4,7 @@ from streamlit_extras.colored_header import colored_header
 from streamlit_extras.add_vertical_space import add_vertical_space
 from hugchat import hugchat
 
-st.title('Workpass Chatbot')
-
-st.write('A chatbot to answer all your questions')
-
-st.set_page_config(page_title=' WorkChats - An LLM-powered chatbot')
+st.set_page_config(page_title='WorkChats - An LLM-powered chatbot')
 
 with st.sidebar:
     st.title('WorkChats :)')
